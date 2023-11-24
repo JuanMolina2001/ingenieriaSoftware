@@ -1,0 +1,193 @@
+.icon{
+    width:25%;
+    height:auto;
+    padding: 15%;
+    background: #4472c4;
+    border: #000000;
+    box-shadow: 10px 13px 12px -2px rgba(0,0,0,0.75);
+    /*posicion*/
+    position: relative;
+    margin-top: 25%;
+    left: 25%;
+}
+.contenedorTable{
+    width: 100%;
+    height: 400px;
+    overflow: scroll;
+}
+
+.fila1{
+    background-color:#4472c4;
+}
+
+.fila2{
+    background-color: #cfd5ea;
+}
+
+.fila3{
+    background-color: #e7eaf4;
+}
+.block{
+    font-family: arial;
+    color: white;
+    font-size: 150%;
+    margin-top: 30%;
+    position: relative;
+    
+    border: rgb(255, 255, 255);
+}
+.header{
+    background-color: #4472c4;
+    width: 100%;
+    height: 50%;
+}
+.text_in_mid{
+    font-weight: bold;
+    font-family: arial;
+    font-size: 100%;
+    color: #4472c4;
+    padding: auto;
+    text-align: center;
+    margin-top: 10%;
+}
+.img_in_mid{
+    width: 30%;
+    /*posicion*/
+    margin-top: 15%;
+    margin-left: 35%;
+}
+
+.ingresar_texto{
+    width: 85%;
+    height: 30px;
+    margin: 2rem;
+
+}
+.name_perfil{
+    border: 2px solid #4472c4;
+    width: 40%;
+    text-align:center;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 5px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 100%;
+    float:left;
+    font-family: arial;
+    
+}
+
+.buton_profile{
+    width: 10%;
+    float:left;
+    margin: 4%;
+}
+
+.contenedor{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cancelBtn{
+    width: 30%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid #2F528F; 
+    font-family: arial;
+    font-size: 18px;
+    border-radius: 5px;
+    /*posicion*/
+}
+.aceptBtn{
+    width: 30%;
+    height: 40px;
+    border-color:#2F528F;
+    font-family: arial;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+    background-color: #4472c4;
+    /*posicion*/
+    
+    
+}
+/*filas.php/////////////////////////////////////////////*/
+.busqueda{
+    border: 2px solid black;
+    width: 50%;
+    position: relative;
+    top: 6vh;
+    z-index: inherit;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.contenedorFilas{
+    width: 100%;
+    margin-top: 10%;
+    height: 50vh;
+    overflow: scroll;
+    transition: height 1s;
+    
+}
+
+.filtro{
+    color: white;
+    font-family: arial;
+    width: 100%;
+    padding-bottom: 5%;
+    display: none;
+    background-color: #4472C4;
+    overflow: hidden;
+    transition: display 3s;
+    border: 3px solid#203864;
+}
+.icons_busquda{
+    width: 30px;
+    top: 3vh;
+    position: relative;
+    float: right;
+    
+    margin-right: 10%;
+}
+.cancel_busquda{
+position: relative;
+width: 20px;
+margin-right: 20%;
+}
+.refreshIcon{
+    position: relative;
+    top: 3vh;
+    width: 60px;
+}
+.OpFiltro{
+    margin-top: 3%;
+}
+.orden{
+    border: 1px solid #203864; 
+    padding-top: 3% ;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.nombre_boton{
+    width: 100%;
+    background-color: #6A8ED0;
+    border: none;
+    padding: 5%;
+    font-size: 20px;
+    border: solid 1px white;
+    color: white;
+    margin-top: 2%;
+}
+.agregar_nuevo{
+    margin: 5%;
+    width: 20%;
+    float: right;
+    display: block;
+    transition: display;
+}

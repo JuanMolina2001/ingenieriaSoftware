@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <img src="../icon/agregar_menu.png" alt="" class="img_in_mid">
+    <div class="text_in_mid">INGRESE UN NOMBRE/ALIAS</div> 
+    <form action="../php/deudor.php" method="post">
+        
+        <p><input type="text" name="nombre" class="ingresar_texto" ></p>
+        <div class='contenedor'><input type="submit" value="ACEPTAR" class="aceptBtn"></div>
+    </form>
+    <br><br>
+
+    <div class='contenedor'><input type="button" value="CANCELAR" onClick="location.href='./filas.php'" class="cancelBtn" ></div>
+
+        
+</body>
+</html>
